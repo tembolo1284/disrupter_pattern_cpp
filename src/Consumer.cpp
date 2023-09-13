@@ -9,7 +9,7 @@ Consumer::Consumer(RingBuffer& buffer) : buffer_(buffer) {}
 void Consumer::processEvents() {
     OrderEvent order;
     while (buffer_.pop(order)) {
-        std::cout << "Processed order for " << order.getSymbol() << "\n";
+        std::cout << "Processed order for " << order.getSymbol() << " at $" << order.getPrice() << "\n";
     }
 }
 

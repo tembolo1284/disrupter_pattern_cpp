@@ -9,7 +9,6 @@ int main() {
     Producer producer(buffer);
     Consumer consumer(buffer);
 
-    std::cout << "sup" << "\n";
     // Simulate producing order events
     
     std::thread producerThread([&]() {
