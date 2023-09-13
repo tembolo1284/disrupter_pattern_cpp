@@ -1,0 +1,10 @@
+^C:\USERS\NIKLO\DESKTOP\CPP-WORKSPACE\DISRUPTER_PATTERN_CPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/niklo/Desktop/CPP-Workspace/disrupter_pattern_cpp -BC:/Users/niklo/Desktop/CPP-Workspace/disrupter_pattern_cpp/build --check-stamp-file C:/Users/niklo/Desktop/CPP-Workspace/disrupter_pattern_cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

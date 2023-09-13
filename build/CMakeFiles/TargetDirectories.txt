@@ -1,0 +1,3 @@
+C:/Users/niklo/Desktop/CPP-Workspace/disrupter_pattern_cpp/build/CMakeFiles/DisruptorPattern.dir
+C:/Users/niklo/Desktop/CPP-Workspace/disrupter_pattern_cpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/niklo/Desktop/CPP-Workspace/disrupter_pattern_cpp/build/CMakeFiles/ZERO_CHECK.dir
